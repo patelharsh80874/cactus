@@ -132,7 +132,7 @@
 #centertext {
   position: absolute;
   left: 36.5%;
-  top: 40%;
+  top: 39%;
   rotate: 270deg;
   font-family: gilroy;
   font-size: 7vw;
@@ -149,6 +149,7 @@
   /* -webkit-text-fill-color:color-mix(in srgb, color percentage, color percentage) */
 }
 #navright {
+  /* overflow: hidden; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,7 +199,7 @@
   object-position: 10% 60%;
   animation-name: img;
   animation-duration: 20s;
-  animation-delay: 2.5s;
+  animation-delay: 3s;
   animation-timing-function:linear;
   animation-iteration-count: infinite;
 }
@@ -397,6 +398,7 @@
     /* -webkit-text-fill-color:color-mix(in srgb, color percentage, color percentage) */
   }
   #navright {
+    /* overflow: hidden; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -447,7 +449,7 @@
     object-position: 10% 60%;
     animation-name: img;
     animation-duration: 20s;
-    animation-delay: 2.5s;
+    animation-delay: 3s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
   }
